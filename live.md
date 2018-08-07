@@ -267,11 +267,6 @@ http://video001.guduokeji.com/api/live/live_video_list
 | anchor_id | true | int |主播id |
 | start | false | int |默认0 |
 | num | false | int |默认10 |
-
-
-
-
-
 #####返回示例
 ```
 {
@@ -293,6 +288,31 @@ http://video001.guduokeji.com/api/live/live_video_list
 	}
 }
 ```
+
+### 弹幕和私聊获取用户签名
+* 请求URL：
+
+```
+http://video001.guduokeji.com/api/live/generate_user_sig
+```
+
+* 请求方式：GET
+* 注意：接口需要带上登录接口返回的token这个参数，后端会进行校验登录态（所有类型都是字符串）。
+
+
+
+#####返回示例
+```
+{
+    "errno": 0,
+    "errmsg": "SUCCESS",
+    "data": {
+    	"uid":1000,
+    	"usersig":"1sdhbauuhdh", //用户签名 客户端拿这个和腾讯服务器通信	   "expire_time": 123144888 //签名过期时间
+    }
+}
+```
+
 
 
 
