@@ -154,7 +154,7 @@ http://video001.guduokeji.com/api/picture/get_atlas
 * 请求URL：
 
 ```
-http://video001.guduokeji.com/api/picture/picture_detail
+http://video001.guduokeji.com/api/picture/atlas_detail
 
 ```
 
