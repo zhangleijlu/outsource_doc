@@ -116,7 +116,7 @@ http://video001.guduokeji.com/api/picture/pictures_index
 * 请求URL：
 
 ```
-http://video001.guduokeji.com/api/picture/get_pictures
+http://video001.guduokeji.com/api/picture/get_atlas
 
 ```
 
