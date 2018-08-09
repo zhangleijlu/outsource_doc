@@ -25,13 +25,21 @@ http://video001.guduokeji.com/api/picture/pictures_rotation
     "data": {
         {
           "atlas_id":10000,//图集id
-          "cover_img_id": 10001,//封面图片id
-          "cover_img_url": "http://xxx"10001//封面图片地址
-		 }，
+          "title": "test",//图集标题
+          "atlas_desc": "test...desc"//图集描述
+          "type": 1 //图集类型
+          "cover_img_id":10000,//封面图片id
+          "is_on": "test",//是否有效
+          "img_url": "http://xxxx"//封面图片地址
+        }，
         {
-           "atlas_id":10000,//图集id
-          "cover_img_id": 10001,//封面图片id
-          "cover_img_url": "http://xxx"10001//封面图片地址
+          "atlas_id":10000,//图集id
+          "title": "test",//图集标题
+          "atlas_desc": "test...desc"//图集描述
+          "type": 1 //图集类型
+          "cover_img_id":10000,//封面图片id
+          "is_on": "test",//是否有效
+          "img_url": "http://xxxx"//封面图片地址
         }
     }
 ```
@@ -57,59 +65,47 @@ http://video001.guduokeji.com/api/picture/pictures_index
     "data": {
       "hot": {
           {
-          "id":10000,
-          "total_time":7200,
-          "title": "测试图片",
-          "desc": "测试图片",
-          "img_url":"http://xxx",
-          "type": "科幻",
-          "scores": 1000 ,
-          "play_nums": "100",
-          "is_free": "1",//1,代表免费，0代表不免费
-          "total_nums": "12",
+          "atlas_id":10000,//图集id
+          "title": "test",//图集标题
+          "atlas_desc": "test...desc"//图集描述
+          "type": 1 //图集类型
+          "cover_img_id":10000,//封面图片id
+          "is_on": "test",//是否有效
+          "img_url": "http://xxxx"//封面图片地址
         }
     }，
      "pay": {
-          "0": {
-          "id":10000,
-          "total_time":7200,
-          "title": "测试图片",
-          "desc": "测试图片",
-          "img_url":"http://xxx",
-          "type": "科幻",
-          "scores": 1000 ,
-          "play_nums": "100",
-          "is_free": "1",//1,代表免费，0代表不免费
-          "total_nums": "12",
+         {
+          "atlas_id":10000,//图集id
+          "title": "test",//图集标题
+          "atlas_desc": "test...desc"//图集描述
+          "type": 1 //图集类型
+          "cover_img_id":10000,//封面图片id
+          "is_on": "test",//是否有效
+          "img_url": "http://xxxx"//封面图片地址
         }
       }，
      "month": {
-          "0": {
-          "id":10000,
-          "total_time":7200,
-          "title": "测试图片",
-          "desc": "测试图片",
-          "img_url":"http://xxx",
-          "type": "科幻",
-          "scores": 1000 ,
-          "play_nums": "100",
-          "is_free": "1",//1,代表免费，0代表不免费
-          "total_nums": "12",
+        {
+          "atlas_id":10000,//图集id
+          "title": "test",//图集标题
+          "atlas_desc": "test...desc"//图集描述
+          "type": 1 //图集类型
+          "cover_img_id":10000,//封面图片id
+          "is_on": "test",//是否有效
+          "img_url": "http://xxxx"//封面图片地址
         }
      }，
      "special": {
-          "0": {
-         "id":10000,
-          "total_time":7200,
-          "title": "测试图片",
-          "desc": "测试图片",
-          "img_url":"http://xxx",
-          "type": "科幻",
-          "scores": 1000 ,
-          "play_nums": "100",
-          "is_free": "1",//1,代表免费，0代表不免费
-          "total_nums": "12",
-        }
+        {
+         "atlas_id":10000,//图集id
+          "title": "test",//图集标题
+          "atlas_desc": "test...desc"//图集描述
+          "type": 1 //图集类型
+          "cover_img_id":10000,//封面图片id
+          "is_on": "test",//是否有效
+          "img_url": "http://xxxx"//封面图片地址
+       }
 	 }，
     }
   }
@@ -141,16 +137,13 @@ http://video001.guduokeji.com/api/picture/get_pictures
     "errmsg": "SUCCESS",
     "data": {
        {
-          "id":10000,
-          "total_time":7200,
-          "title": "测试图片",
-          "desc": "测试图片",
-          "img_url":"http://xxx",
-          "type": "科幻",
-          "scores": 1000 ,
-          "play_nums": "100",
-          "is_free": "1",//1,代表免费，0代表不免费
-          "total_nums": "12",
+           "atlas_id":10000,//图集id
+          "title": "test",//图集标题
+          "atlas_desc": "test...desc"//图集描述
+          "type": 1 //图集类型
+          "cover_img_id":10000,//封面图片id
+          "is_on": "test",//是否有效
+          "img_url": "http://xxxx"//封面图片地址
       }
    }
  }
@@ -180,65 +173,155 @@ http://video001.guduokeji.com/api/picture/picture_detail
     "errno": 0,
     "errmsg": "SUCCESS",
     "data": {
-      "id":10000,
-      "total_time":7200,
-      "title": "测试图片",
-      "desc": "测试图片",
-      "img_url":"http://xxx",
-      "type": "科幻",
-      "scores": 1000 ,
-      "play_nums": "100",
-      "is_free": "1",//1,代表免费，0代表不免费
-      "total_nums": "12",
-      "origin_price":10,
-      "now_price"6,
-      "is_free":"1",//1,代表免费，0代表不免费
-      "has_collect":"1",//1,代表已收藏，0代表未收藏
-      "has_buy":"1",//1,代表已购买，0代表未购买
-      "guess_like": {
-          "0": {
-          "id":10000,
-          "title": "头号玩家",
-          "desc": "根据小说改编",
-          "type": "科幻",
-          "scores": 1000 ,
-          "play_nums": "100",
-          "origin_price":10,
-          "now_price"6,
-          "is_free": "1",//1,代表免费，0代表不免费
-        }，
-        "1": {
-          "id":10000,
-          "title": "头号玩家",
-          "desc": "根据小说改编",
-          "type": "科幻",
-          "scores": 1000 ,
-          "play_nums": "100",
-          "origin_price":10,
-          "now_price":6,
-          "is_free": "1",//1,代表免费，0代表不免费
-      }，
-      "comments": {
-          "0": {
-              "id":1000,
-              "user_nick": "test",
-              "user_img": "http://xxxx.jpg",
-              "content": "very good",
-              "time": "2018-05-08 10:00:00" ,
-              "likes": 50 ,
-              "has_like":1,//1，代表已经点赞，0代表没有点赞
-           },
-         "1": {
-              "id":1001,
-              "user_nick": "test",
-              "user_img": "http://xxxx.jpg",
-              "content": "very good",
-              "time": "2018-05-08 10:00:00" ,
-              "likes": 50 ,
-              "has_like":1,//1，代表已经点赞，0代表没有点赞
-           },
+      "atlas_id":10000,//图集id
+      "title": "test",//图集标题
+      "atlas_desc": "test...desc"//图集描述
+      "type": 1 //图集类型
+      "cover_img_id":10000,//封面图片id
+      "is_on": "test",//是否有效
+      "img_url": "http://xxxx"//封面图片地址
+      "pictures_list": {
+	        {
+	          "picture_id":10000,
+	          "img_url": "http://XXXXX",
+	        }，
       }
     }
+  }
+  
+```
+
+### 图集搜索接口
+* 请求URL：
+
+```
+http://video001.guduokeji.com/api/picture/search_pictures
+
+```
+
+* 请求方式：POST
+* 有token的话一定要带上
+
+| 参数名 | 必选 | 类型 |说明 |
+| :--- | :----: | ----: |----: |
+| slug | true | int |查询关键字 |
+
+
+#####返回示例
+
+
+```
+ {
+    "errno": 0,
+    "errmsg": "SUCCESS",
+    "data": {
+	   {
+	   	    "atlas_id":10000,//图集id
+      		"title": "test",//图集标题
+          "atlas_desc": "test...desc"//图集描述
+          "type": 1 //图集类型
+          "cover_img_id":10000,//封面图片id
+          "is_on": "test",//是否有效
+          "img_url": "http://xxxx"//封面图片地址   
+      }
+    }
+  }
+  
+```
+
+
+### 图集搜索历史接口
+* 请求URL：
+
+```
+http://video001.guduokeji.com/api/picture/picture_search_history
+
+```
+
+* 请求方式：GET
+* 注意：接口需要带上登录接口返回的token这个参数，后端会进行校验登录态（所有类型都是字符串）。
+
+#####返回示例
+
+
+```
+ {
+    "errno": 0,
+    "errmsg": "SUCCESS",
+    "data": {
+	   {
+	   	    "atlas_id":10000,//图集id
+      		"title": "test",//图集标题
+          "atlas_desc": "test...desc"//图集描述
+          "type": 1 //图集类型
+          "cover_img_id":10000,//封面图片id
+          "is_on": "test",//是否有效
+          "img_url": "http://xxxx"//封面图片地址   
+      }
+    }
+  }
+  
+```
+
+### 图集评论信息接口
+* 请求URL：
+
+```
+http://video001.guduokeji.com/api/picture/picture_comment
+
+```
+
+* 请求方式：GET
+
+
+#####返回示例
+
+
+```
+ {
+    "errno": 0,
+    "errmsg": "SUCCESS",
+    "data": {
+	   {
+	   	    "comment_id":10000,//评论id
+      		"comment": "test",//评论内容
+          "user_id": "test...desc"//用户id
+          "picture_id": 1 //图片id
+          "user_name":10000,//用户名
+          "nick_name": "test",//用户昵称
+          "head_url": "http://xxxx"//头像图片地址   
+      }
+    }
+  }
+  
+```
+
+### 图集添加评论信息接口
+* 请求URL：
+
+```
+http://video001.guduokeji.com/api/picture/add_picture_comment
+
+```
+
+* 请求方式：POST
+* 注意：接口需要带上登录接口返回的token这个参数，后端会进行校验登录态（所有类型都是字符串）。
+
+| 参数名 | 必选 | 类型 |说明 |
+| :--- | :----: | ----: |----: |
+| picture_id | true | int |图片 |
+| comment | true | string |评论内容 |
+
+
+
+#####返回示例
+
+
+```
+ {
+    "errno": 0,
+    "errmsg": "SUCCESS",
+    "data": []
   }
   
 ```
